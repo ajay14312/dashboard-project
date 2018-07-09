@@ -1,0 +1,10 @@
+.left-nav {
+    padding-top: 6%;
+    width: 20%;
+    border-right: 1px solid #efefef;
+}
+.li-bottom {
+    border-bottom: 1px solid #efefef;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

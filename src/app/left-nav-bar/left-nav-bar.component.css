@@ -1,10 +1,26 @@
 .left-nav {
-    padding-top: 6%;
-    width: 20%;
+    height: 480px;
     border-right: 1px solid #efefef;
 }
 .li-bottom {
     border-bottom: 1px solid #efefef;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.fa-padding{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.fa-width{
+    width: 30%;
+}
+.anchor-color {
+    color: gray;
+}
+li:hover {
+    background-color: #eee;
+    transition: all .5s ease;
+}
+.ul-overflow {
+    overflow: auto;
 }

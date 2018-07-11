@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { HeaderComponent } from './header/header.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { GetStartedComponent } from './get-started/get-started.component';
 
 const appRoutes: Routes = [
-    { path: 'hello', component: HeaderComponent },
+    { path: 'dashboard', component: DashboardComponent },
+    { path: 'getStarted', component: GetStartedComponent },
     { path: '',
-      redirectTo: '/hello',
+      redirectTo: '/getStarted',
       pathMatch: 'full'
     }
   ];

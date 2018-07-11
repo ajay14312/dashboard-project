@@ -1,0 +1,12 @@
+.body-div {
+    display: inline-flex;
+    width: 100%;
+}
+.left-nav-div{
+    width: 20%;
+}
+.router-div{
+    width: 80%;
+    padding-top: 3%;
+    padding-left: 2%
+};

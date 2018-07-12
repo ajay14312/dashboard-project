@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatCardModule, MatSelectModule } from '@angular/material';
+import { MatTableModule } from '@angular/material/table';
 import { ChartsModule } from 'ng2-charts';
 
 import { AppComponent } from './app.component';
@@ -12,6 +13,8 @@ import { AppRouterModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { GetStartedComponent } from './get-started/get-started.component';
 import { DonutChartComponent } from './donut-chart/donut-chart.component';
+import { NgMatTableComponent } from './ng-mat-table/ng-mat-table.component';
+import { NgDatamapsComponent } from './ng-datamaps/ng-datamaps.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,9 @@ import { DonutChartComponent } from './donut-chart/donut-chart.component';
     LeftNavBarComponent,
     DashboardComponent,
     GetStartedComponent,
-    DonutChartComponent
+    DonutChartComponent,
+    NgMatTableComponent,
+    NgDatamapsComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +35,8 @@ import { DonutChartComponent } from './donut-chart/donut-chart.component';
     ChartsModule,
     MatButtonModule,
     MatCardModule,
-    MatSelectModule
+    MatSelectModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

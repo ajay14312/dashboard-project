@@ -4,9 +4,38 @@
 }
 .left-nav-div{
     width: 20%;
+    height: 600px;
+    box-shadow: 0 16px 38px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
 }
 .router-div{
     width: 80%;
     padding-top: 3%;
-    padding-left: 2%
-};
+    height: 510px;
+    overflow-y: auto;
+}
+.ul-image{
+    background-image: url('/assets/sidebar.jpg');
+    background-position: center center;
+    opacity: 0.4;
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    display: block;
+    top: 14%;
+    bottom: 10%;
+    background-size: cover;
+    z-index: 1;
+}
+.ul-image:after{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    content: "";
+    display: block;
+    background: #fff;
+    opacity: .93;
+}
+.router-padding{
+    padding-left: 2%;
+}

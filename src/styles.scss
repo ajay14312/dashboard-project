@@ -1,18 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
-// @import '../node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
+body{
+    overflow: hidden;
+}
+.chart-padding{
+    padding-bottom: 2%;
+}
+.chart-border{
+    border:1px solid #efefef;
+    border-radius: 5px;
+}
+.chart-header{
+    background-color: #343a40;
+    color: rgba(255,255,255,.5);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 5px;
+}
+@import '../node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
 
-@import '~@angular/material/theming';
+// @import '~@angular/material/theming';
 
-@include mat-core();
+// @include mat-core();
 
-$my-theme-primary: mat-palette($mat-cyan);
-$my-theme-accent: mat-palette($mat-teal);
-$my-theme-warn: mat-palette($mat-red);
+// $my-theme-primary: mat-palette($mat-cyan);
+// $my-theme-accent: mat-palette($mat-teal);
+// $my-theme-warn: mat-palette($mat-red);
 
-$my-theme: mat-dark-theme(
-    $my-theme-primary,
-    $my-theme-accent,
-    $my-theme-warn
-);
+// $my-theme: mat-light-theme(
+//     $my-theme-primary,
+//     $my-theme-accent,
+//     $my-theme-warn
+// );
 
-@include angular-material-theme($my-theme)
+// @include angular-material-theme($my-theme)
